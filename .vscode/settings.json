@@ -1,0 +1,10 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#9bb70b",
+        "titleBar.activeBackground": "#637e25",
+        "titleBar.activeForeground": "#FDFCFF"
+    },
+    "markdownlint.config": {
+        "MD007": { "indent": 4 }
+    },
+}
