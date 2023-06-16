@@ -4,17 +4,17 @@ O comando `git config` define as configurações a serem usadas pelo git.
 
 ```bash
 # Nome do usuário.
-git config user.name "<nome usuario>"
+git config --global user.name "<nome usuario>"
 # Email do usuário.
-git config user.email "<email-usuario>"
+git config --global user.email "<email-usuario>"
 # Editor padrão.
-git config core.editor "<editor>"
+git config --global core.editor "<editor>"
 # Define o arquivo que irá conter a lista de arquivos ignorados.
-git config core.excludesfile ~/.gitignore
+git config --global core.excludesfile ~/.gitignore
 # Ferramenta de merge padrão.
-git config merge.tool "<ferramenta>"
+git config --global merge.tool "<ferramenta>"
 # Local da chave SSH
-git config core.sshCommand "ssh -i <caminho-completo>/<arquivo-chave-privada>"
+git config --global core.sshCommand "ssh -i <caminho-completo>/<arquivo-chave-privada>"
 
 # Opções:
 # --local | Define as configurações localmente (local default ".git/config").
